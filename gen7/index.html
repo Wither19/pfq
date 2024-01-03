@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<title>Online HTML Editor</title>
+<head>
+    <link rel="stylesheet" href="https://pfq-static.com/skins/user/J/x/z/1/thingy/index/sally.css/t=1578857784">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <style>
+.pkmn {
+    margin: -3px 1px -2px -3px;
+    float: left;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.pkmn:before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 40%;
+    border-radius: 50%;
+    box-sizing: border-box;
+    border: solid #9ec690;
+    border-width: 1px 3px 5px;
+    background-color: #c1d091;
+    position: absolute;
+    bottom: 0;
+}
+.pokemon {
+    width: 100px;
+    height: 100px;
+    background-position: center 75%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+a.right {
+    position: absolute;
+    left: 85%;
+}
+    </style>
+</head>
+<body>
+<h1>Kalos</h1>
+<a class="only">< Kalos</a>
+<br><br>
+<a class="pkmn"><div class="pokemon" style="/9/n/6/k"></div></a>
+<a class="pkmn"><div class="pokemon" style="/g/4/o/5"></div></a>
+<a class="pkmn"><div class="pokemon" style="/o/p/j/t"></div></a>
+<a class="pkmn"><div class="pokemon" style="/k/q/j/n"></div></a>
+<script>
+    $(".only").click(function(){
+       window.location.assign("https://wither19.github.io/pfq/gen6") 
+});
+</script>
+</body>
+</html>
