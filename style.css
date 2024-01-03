@@ -49,10 +49,12 @@ a.only {
 .nav span {
     position: relative;
     top: -20px;
+    z-index: 1;
 }
 .nav img {
     position: relative;
     top: 10px;
     left: -135px;
     width: 48px;
+    z-index: 0;
 }
