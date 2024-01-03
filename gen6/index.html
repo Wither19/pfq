@@ -38,19 +38,61 @@ a.right {
     position: absolute;
     left: 85%;
 }
+.nav {
+    display: flex;
+}
+.nav a {
+    margin: 10px auto;
+    border: solid #9ec690;
+    padding: 16px 12px;
+    border-width: 5px;
+    background-color: #c1d091;
+    cursor: pointer;
+}
+.nav span {
+    position: relative;
+    top: -20px;
+}
+.nav img {
+    position: relative;
+    top: 10px;
+    left: -95px;
+}
     </style>
 </head>
 <body>
 <h1>Kalos</h1>
-<a class="left">< Unova</a>
-<a class="right">Alola ></a>
 <br><br>
+<div class="nav">
+    <a class="g1"><span>Kanto</span></a><img src="https://pfq-static.com/img/dex/flags/all.svg/t=1674162478#kanto">
+    <a class="g2"><span>Johto</span></a><img src="https://pfq-static.com/img/dex/flags/all.svg/t=1674162478#johto">
+    <a class="g3"><span>Hoenn</span></a><img src="https://pfq-static.com/img/dex/flags/all.svg/t=1674162478#hoenn">
+    <a class="g4"><span>Sinnoh</span></a><img src="https://pfq-static.com/img/dex/flags/all.svg/t=1674162478#sinnoh">
+    <a class="g5"><span>Unova</span></a><img src="https://pfq-static.com/img/dex/flags/all.svg/t=1674162478#unova">
+    <a class="g6"><span>Kalos</span></a><img src="https://pfq-static.com/img/dex/flags/all.svg/t=1674162478#kalos">
+        <a class="g7"><span>Alola</span></a><img src="https://pfq-static.com/img/dex/flags/all.svg/t=1674162478#alola">
+    </div>
 <a class="pkmn"><div class="pokemon" style="/i/b/y"></div></a>
 <script>
-    $(".left").click(function(){
+    $(".g1").click(function(){
+       window.location.assign("https://wither19.github.io/pfq") 
+    });
+    $(".g2").click(function(){
+       window.location.assign("https://wither19.github.io/pfq/gen2") 
+    });
+    $(".g3").click(function(){
+       window.location.assign("https://wither19.github.io/pfq/gen3") 
+    });
+    $(".g4").click(function(){
+       window.location.assign("https://wither19.github.io/pfq/gen4") 
+    });
+    $(".g5").click(function(){
        window.location.assign("https://wither19.github.io/pfq/gen5") 
     });
-    $(".right").click(function(){
+    $(".g6").click(function(){
+       window.location.assign("https://wither19.github.io/pfq/gen6") 
+    });
+    $(".g7").click(function(){
        window.location.assign("https://wither19.github.io/pfq/gen7") 
     });
 </script>
