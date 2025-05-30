@@ -1,3 +1,3 @@
-if ($(".name > i").text() === "<Empty>") {
-    $(".name > i").text("nuttin");
-}
+let credits = parseInt($("#c_credits").text());
+
+console.log("Credits: " + credits);
